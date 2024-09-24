@@ -15,18 +15,18 @@ global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
 module.exports = {
   OPENAI_API_KEY:process.env.OPENAI_API_KEY || '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',
-  botname: process.env.BOT_NAME || 'PRABATH-MD',
+  botname: process.env.BOT_NAME || 'WEDSON-MD',
   dl_limit: process.env.DL_SIZE || '300',
   art: process.env.AUTO_RESTART || 'true',
-  sudo: process.env.SUDO || '94762280384',
+  sudo: process.env.SUDO || '263784263227',
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
   alivemsj: process.env.ALIVE_MSJ || '*POWERD BY PRABATH-MD* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
+  ownername:process.env.OWNER_NAME || 'JUNIOR',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
-  autoreaction: process.env.AUTO_REACTION || 'off',
+  autoreaction: process.env.AUTO_REACTION || 'ON',
   antibadword : process.env.ANTI_BAD_WORD || 'fuck,huth,fucking,huththa,huththo,hukanna,fucked,pakaya,pako,ponnaya,ponnayo,kariya,kariyo,huththaa,hutta',
   alwaysonline: process.env.ALWAYS_ONLINE || 'true',
   antifake : process.env.FAKE_COUNTRY_CODE || '',
@@ -40,10 +40,10 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || 'put your herokuapp name',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || 'put your heroku_api_key',
   BRANCH: 'main',
-  ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
+  ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || 'HELLO WORLD',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
   VERSION: process.env.VERSION === undefined ? 'v.5.0.0' : process.env.VERSION,
-  LANG: process.env.THEME|| 'PRABATH-MD',
+  LANG: process.env.THEME|| 'JUNIOR-MD',
   WORKTYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE
 };
 
